@@ -1,37 +1,46 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'nl' Physical Memory: 16296 MB
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'en' Physical Memory: 8065 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+D:\Program Files (x86)\Unity Editors\2021.1.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/School/Jaar 1/Project Vrij/Game/WizardGame/ProjectVrij
+D:/Desktop/Game Dev/Project Vrij I/Project Map/WizardGame/ProjectVrij
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 49550
 Successfully changed project path to: C:/School/Jaar 1/Project Vrij/Game/WizardGame/ProjectVrij
 C:/School/Jaar 1/Project Vrij/Game/WizardGame/ProjectVrij
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 118.12 ms, found 1 plugins.
+=======
+55936
+Successfully changed project path to: D:/Desktop/Game Dev/Project Vrij I/Project Map/WizardGame/ProjectVrij
+D:/Desktop/Game Dev/Project Vrij I/Project Map/WizardGame/ProjectVrij
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 125.58 ms, found 1 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/School/Jaar 1/Project Vrij/Game/WizardGame/ProjectVrij/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Unity Editors/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Desktop/Game Dev/Project Vrij I/Project Map/WizardGame/ProjectVrij/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 5700 (ID=0x731f)
-    Vendor:   ATI
-    VRAM:     8152 MB
-    Driver:   27.20.14535.3005
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   27.21.14.6089
 Initialize mono
+<<<<<<< Updated upstream
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
@@ -1168,3 +1177,10 @@ Received Import Request.
   artifactKey: Guid(7ff5c29b29d4b7b4aa5841e0eddd5f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Planty/planty controller.controller using Guid(7ff5c29b29d4b7b4aa5841e0eddd5f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f588071546736e0a54503f73f631ccda') in 0.104586 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+Mono path[0] = 'D:/Program Files (x86)/Unity Editors/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files (x86)/Unity Editors/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files (x86)/Unity Editors/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+>>>>>>> Stashed changes
