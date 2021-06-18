@@ -333,8 +333,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/DynamicBone/Demo/DynamicBoneDemo1.cs"
+"Assets/DynamicBone/Scripts/DynamicBone.cs"
+"Assets/DynamicBone/Scripts/DynamicBoneCollider.cs"
+"Assets/DynamicBone/Scripts/DynamicBoneColliderBase.cs"
+"Assets/DynamicBone/Scripts/DynamicBonePlaneCollider.cs"
 "Assets/SampleSceneAssets/TutorialInfo/Scripts/Readme.cs"
-"Assets/Scripts/MouseMovement.cs"
+"Assets/Scripts/MouseLook.cs"
+"Assets/Scripts/PlayerAnimationmanager.cs"
 "Assets/Scripts/PlayerMovement.cs"
 -langversion:8.0
 
